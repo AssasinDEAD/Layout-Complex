@@ -261,43 +261,8 @@ section{
 }
 
 /*section apartments end*/
-information-block
-
- /*section video-block start*/
-.video {
-	padding-bottom: 180px;
-	position: relative;
-}
-
-.IV {
-	position: absolute;
-	right: 35px;
-  top: 120px;
-	width: 300px;
-	height: 300px;
-	background-image: url(../img/IV.png);
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-	background-position: right;
-}
-
-.video .video__main {
-	background: linear-gradient(0deg, rgba(36, 43, 51, 0.8), rgba(36, 43, 51, 0.8));
-	background-image: url(../img/Video.png);
-	width: 719px;
-	height: 650px;
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-	background-position: all;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-  /*section video-block end*/
 
  /*section information-block start*/
- master
 
 .information {
 	background: linear-gradient(180deg, #242B33 10.42%, rgba(36, 43, 51, 0) 50.52%, #242B33 90.1%),
@@ -372,6 +337,40 @@ information-block
 }
 
   /*section information-block end*/
+
+ /*section video-block start*/
+.video {
+	padding-bottom: 180px;
+	position: relative;
+}
+
+.IV {
+	position: absolute;
+	right: 35px;
+  top: 120px;
+	width: 300px;
+	height: 300px;
+	background-image: url(../img/IV.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+.video .video__main {
+	background: linear-gradient(0deg, rgba(36, 43, 51, 0.8), rgba(36, 43, 51, 0.8));
+	background-image: url(../img/Video.png);
+	width: 719px;
+	height: 650px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: all;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+  /*section video-block end*/
+
 
 
 
