@@ -24,8 +24,31 @@ li {
 	color: #D4C17F;
 }
 
-section{
+section {
 	background-color: #242B33;
+}
+
+body::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.6);
+    background-color: #242B33;
+}
+
+body::-webkit-scrollbar
+{
+    width: 10px;
+    background-color: #242B33;
+}
+
+body::-webkit-scrollbar-thumb
+{
+    background-color:#242B33;
+    background-image: -webkit-linear-gradient(90deg,
+                                              rgba(0, 0, 0, 1) 0%,
+                                              rgba(0, 0, 0, 1) 25%,
+                                              transparent 100%,
+                                              rgba(0, 0, 0, 1) 75%,
+                                              transparent)
 }
 
 /*header start*/
@@ -262,7 +285,7 @@ section{
 
 /*section apartments end*/
 
- /*section information-block start*/
+/*section information-block start*/
 
 .information {
 	background: linear-gradient(180deg, #242B33 10.42%, rgba(36, 43, 51, 0) 50.52%, #242B33 90.1%),
@@ -301,7 +324,7 @@ section{
 	padding-bottom: 35px;
 }
 
-.information .information__main .information__buttons .information__link {
+.link {
 	display: block;
 	text-align: center;
 	padding-top: 12px;
@@ -336,9 +359,9 @@ section{
 	opacity: 1;
 }
 
-  /*section information-block end*/
+/*section information-block end*/
 
- /*section video-block start*/
+/*section video-block start*/
 .video {
 	padding-bottom: 180px;
 	position: relative;
@@ -369,18 +392,113 @@ section{
 	align-items: center;
 }
 
-  /*section video-block end*/
+/*section video-block end*/
 
+/*section map start*/
 
+.map {
+	position: relative;
+	padding-bottom: 180px;
+}
 
+.V {
+	position: absolute;
+	background-image: url(../img/V.png);
+	width: 220px;
+    height: 250px;
+    top: 100px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: all;
+}
 
+.map .map__title {
+	font-size: 36px;
+	line-height: 48px;
+	margin-bottom: 100px;
+}
 
+.map .map__place {
+	width: 1110px;
+	height: 358px;
+	background: #626262;
+}
 
+/*section map end*/
 
+ /*section question start*/
 
+.question {
+	padding-bottom: 180px;
+}
 
+.question .question__main .question__title {
+	font-size: 36px;
+	line-height: 48px;
+	margin-bottom: 50px;
+}
 
+.question .question__main .question__block {
+	display: flex;
+}
 
+.question .question__main .question__block p {
+	text-align: center;
+	font-size: 13px;
+	line-height: 16px;
+	color: #E7E7E7;
+	margin-top: 12px;
+	margin-right: 35px;
+}
 
+.question .question__main .question__block .link:last-child {
+	background: #D4C17F;
+	color: #ffffff;
+	opacity: 1;	
+}
+ /*section question end*/
+
+/*footer start*/
+
+.footer {
+	 background: #2D343C;
+}
+
+.footer .footer__main {
+	display: flex;
+	padding-top: 60px;
+	padding-bottom: 51px;
+}
+
+.footer .footer__main .footer__logo {
+	width: 134px;
+	height: 66px;
+}
+
+.footer .footer__main .footer__list .footer__item .footer__link {
+	font-size: 14px;
+	line-height: 16px;
+	margin-bottom: 15px;
+	letter-spacing: 0.05em;
+	color: #FFFFFF;
+}
+
+.footer .footer__main .footer__list .footer__item .footer__social {
+	display: flex;
+	margin-top: 20px;
+}
+
+.footer .footer__main .footer__list .footer__item .footer__social .footer__link:first-child {
+	margin-right: 20px;
+}
+
+.footer .footer__main .footer__list .footer__item .footer__social .footer__link:nth-child(2) {
+	margin-right: 25.50px;
+}
+
+.footer .footer__main .footer__list .footer__item .footer__social .footer__link:nth-child(3) {
+	margin-right: 24.50px;
+}
+/*footer end*/
 
 
