@@ -125,7 +125,20 @@ section{
 /*section offer start*/
 
 .offer {
+	position: relative;
+	padding-bottom: 120px;
+}
 
+.II {
+	position: absolute;
+	background-image: url(../img/II.png);
+	width: 200px;
+    height: 300px;
+    right: 90px;
+    top: 160px;
+    background-size: 200px 300px;
+	background-repeat: no-repeat;
+	background-position: all;
 }
 
 .offer .offer__main {
